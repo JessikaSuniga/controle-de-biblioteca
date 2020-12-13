@@ -23,22 +23,40 @@ public class ListarLivrosServlet extends HttpServlet {
 	public void init() throws ServletException {
 		
 		Livro livro1 = new Livro();
-		livro1.setTitulo("Estudar JSP");
-		livro1.setAutor("Estudar JSP");
-		livro1.setEditora("Estudar JSP");
+		livro1.setTitulo("Boneco de Neve");
+		livro1.setAutor("Jo Nesbo");
+		livro1.setEditora("Record");
 		repositorio.cadastrar(livro1);
 		
 		Livro livro2 = new Livro();
-		livro2.setTitulo("Estudar CSS");
-		livro2.setAutor("Estudar CSS");
-		livro2.setEditora("Estudar CSS");
+		livro2.setTitulo("O Morro dos Ventos Uivantes");
+		livro2.setAutor("Emily Bronte");
+		livro2.setEditora("Pé da Letra");
 		repositorio.cadastrar(livro2);
 		
 		Livro livro3 = new Livro();
-		livro3.setTitulo("Estudar HTML");
-		livro3.setAutor("Estudar HTML");
-		livro3.setEditora("Estudar HTML");
+		livro3.setTitulo("A Mulher na Janela");
+		livro3.setAutor("A.J. Finn");
+		livro3.setEditora("Arqueiro");
 		repositorio.cadastrar(livro3);
+		
+		Livro livro4 = new Livro();
+		livro4.setTitulo("A menina que roubava livros");
+		livro4.setAutor("Markus Zusak");
+		livro4.setEditora("Intrínseca");
+		repositorio.cadastrar(livro4);
+		
+		Livro livro5 = new Livro();
+		livro5.setTitulo("O homem de Giz");
+		livro5.setAutor("C.J. Tudor");
+		livro5.setEditora("Intrínseca");
+		repositorio.cadastrar(livro5);
+		
+		Livro livro6 = new Livro();
+		livro6.setTitulo("A pequena livraria dos sonhos");
+		livro6.setAutor("Jenny Colgan");
+		livro6.setEditora("Arqueiro");
+		repositorio.cadastrar(livro6);
 	}
 	
 	@Override

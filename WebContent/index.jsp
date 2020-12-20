@@ -147,7 +147,7 @@
 
 						<form class="row g-3" style="margin-bottom: 10px">
 							<div style="width: 50%; margin-left: 10px">
-								<label for="inputTitulo<%= i %>" class="visually-hidden">TÍTULO</label>
+								<label for="inputTitulo<%= i %>" class="visually-hidden">Tï¿½TULO</label>
 								<input type="text" disabled class="buttom-block tc" id="inputTitulo<%= i %>" value="<%= livro.getTitulo() %>">
 							</div>
 							<div style="width: 25%; margin-left: 10px">
@@ -162,13 +162,13 @@
 					
 						<form class="row g-3" style="margin-bottom: 10px">
 							<div style="width: 100%; margin-left: 10px">
-								<label for="inputTitulo<%= i %>" class="visually-hidden">OPERAÇõES</label>
+								<label for="inputTitulo<%= i %>" class="visually-hidden">OPERAï¿½ï¿½ES</label>
 							</div>
 						</form>
 					  
 						<form class="row g-3">
 							<div style="width: 45%; margin-left: 10px">
-								<a class="btn btn-dark mb-2 mr-sm-4" href="/CadastroLivros/livros/alterar-status?id=<%= livro.getId() %>&status=disponivel">LIVRO DISPONÍVEL</a>
+								<a class="btn btn-dark mb-2 mr-sm-4" href="/CadastroLivros/livros/alterar-status?id=<%= livro.getId() %>&status=disponivel">LIVRO DISPONï¿½VEL</a>
 								<a class="btn btn-dark mb-2 mr-sm-4" href="/CadastroLivros/livros/alterar-status?id=<%= livro.getId() %>&status=emprestado">LIVRO EMPRESTADO</a>
 							</div>
 							<div style="width: calc(52% - 2px);" class="tr">
